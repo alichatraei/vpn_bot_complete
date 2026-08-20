@@ -4,10 +4,10 @@ import os
 from datetime import datetime
 
 # 🔑 Telegram Bot Token (از @BotFather بگیرید)
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8339211773:AAEZAu922julsvKE2mykUWI4qw663x8PIM8")
 
 # 👨‍💼 ADMIN ID (شناسه ادمین - شناسه عددی شما در Telegram)
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))  # عوض کنید!
+ADMIN_ID = int(os.getenv("ADMIN_ID", "8059686209"))  # عوض کنید!
 
 # 🗄️ Database
 DATABASE_FILE = "vpn_bot.db"
